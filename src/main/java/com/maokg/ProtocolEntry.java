@@ -28,7 +28,6 @@ public class ProtocolEntry implements PacketReceiver {
 				if (!(addr.address instanceof Inet4Address)) {
 					continue;
 				}
-
 				findDevice = true;
 				break;
 			}
